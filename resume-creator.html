@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"  />
+    <meta name="viewport" content="width=device-width,initial scale=1"/>
+    <title>Resume Creator</title>
+    <link rel="stylesheet" href="style2.css"/>
+</head>
+<body>    
+    <header>
+        <ul>
+            <a href="index.html">Home</a>
+        </ul>
+    </header>
+    <section class="Resume_Builder">
+        <div class="container">
+            <h1>Resume Creator</h1>
+            <div class="resume-input">
+                <form class="inputField">
+                    <input type="text"
+                            name="name"
+                            placeholder="Name"
+                            title="Enter Your Name" />
+                    <input type="text"
+                                name="title"
+                                placeholder="Tile"
+                                title="Enter Your Heading" />
+                    <input type="text"
+                                name="objective"
+                                placeholder="Objective"
+                                title="Enter Your Obejective"  /> 
+                    <label for="title1">Work Experience</label>                       
+                    <textarea name="work experience"
+                            placeholder="Work Experience"
+                            cols:"40"  row:"4"
+                            title="Enter Your Work Experience">
+                     </textarea>
+                     <label for="title2">Academic Details</label>
+                     <textarea name="academic details"
+                                placeholder="Acdemic Details"
+                                cols:"40" row:"4"
+                                title="Enter Your Academic Details">
+                     </textarea>
+                     <label for="title3">Skills</label>
+                     <textarea name="skills"
+                                placeholde="Skills"
+                                cols:"40"  row:"4"
+                                title="Enter Your Skills" >
+                    </textarea> 
+                    <label for="title4">Project</label>
+                    <textarea name="project"
+                            placeholder="Project"
+                            cols:"40"  row:"4"
+                            title="Enter Your Projects">
+                    </textarea> 
+                    <label for="title5">Achievements</label>
+                    <textarea name="achievements"
+                              placeholder="Achievements"
+                              cols:"40"   rows"4"
+                              title="Enter Your Achievemnts">
+                    </textarea> 
+                    <label for="title6">Contact Details</label>
+                    <textarea name="contact"
+                            placeholder="Contact Information"
+                            cols:"40"  row:"4"
+                            title="Enter Your Contact Information">
+                     </textarea>
+
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="output_container"></div>
+    <button onclick="hide()">
+    Generate/Edit
+    </button>
+    <footer>
+        Made with 💓
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
